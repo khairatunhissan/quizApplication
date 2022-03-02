@@ -6,7 +6,7 @@ function Nav() {
 <nav className={classes.nav}>
       <ul>
         <li>
-          <a href="index.html" className={classes.brand}>
+          <a href="/" className={classes.brand}>
             <img src="./assests/logo-bg.png" alt="Learn with Sumit Logo" />
             <h3>Learn More</h3>
           </a>

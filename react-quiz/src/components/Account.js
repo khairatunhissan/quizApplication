@@ -6,7 +6,8 @@ function App() {
         <span className="material-icons-outline" title="Account">
           account_circle
         </span>
-        <a href="signup.html">Signup</a>
+        <a href="/signup">Signup</a>
+        <a href="/login">Login</a>
      {/* <span className="material-icons-outlined" title="Logout"> logout </span> */}
       </div>
      );

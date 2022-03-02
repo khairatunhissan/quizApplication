@@ -19,8 +19,9 @@ function Login() {
                     type="password"
                     placeholder="Enter password"
                     icon='lock'/>
-                 <Button 
-                    text='Submit Now' />
+                <Button>
+            <span>Submit Now</span>
+          </Button>
                  <div className="info">Don't have an account? <a href="login.html">Signup</a> instead.
              </div>
              </Form>

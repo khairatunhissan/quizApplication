@@ -6,9 +6,11 @@ import Login from "./pages/Login";
 import Quiz from "./pages/Quiz";
 import Result from "./pages/Result";
 import Signup from "./pages/Signup";
+import {AuthProvider}  from "../context/AuthContext"
 
 function App() {
   return (
+    <AuthProvider>      
       <Layout>
         <Routes>
         <Route path='/' element={<Home/>}/>
@@ -18,6 +20,8 @@ function App() {
           <Route exact path="/result" element={<Result/>} />
           </Routes>
       </Layout>
+      </AuthProvider>
+
   );
 }
 
